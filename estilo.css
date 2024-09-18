@@ -1,0 +1,18 @@
+.pag-inicial{
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+body img {
+    width: 500px;
+    height: 500px;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
