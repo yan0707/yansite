@@ -1,18 +1,36 @@
 .pag-inicial{
     text-align: center;
+    background-color: black;
 }
 
 body{
-    background-color: aquamarine;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-color: black;
+    background-attachment: fixed;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+
 }
 
 body img {
-    width: 500px;
-    height: 500px;
+    width: 500spx;
+    height: 400px;
+
 }
 
 h1{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 1000;
+}
+
+
+.botao a{
+    color: azure;
+}
+
+.botao{
+   
+    text-align: center;
+    
 }
