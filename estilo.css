@@ -41,3 +41,40 @@ h1{
     text-align: center;
     
 }
+
+.caixa-de-login{
+
+    padding 20px;
+    height: 15%;
+    margin-top: 18%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px;
+    width: 20%;
+
+    
+}
+
+h2{
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+
+body.login{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
