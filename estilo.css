@@ -44,7 +44,7 @@ h1{
 
 .caixa-de-login{
 
-    padding 20px;
+    padding: 20px;
     height: 15%;
     margin-top: 18%;
     background-color: gray;
@@ -77,4 +77,10 @@ body.login{
 a{
     color: azure;
     text-decoration: none;
+}
+
+h3{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
