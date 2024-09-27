@@ -84,3 +84,23 @@ h3{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
+
+.caixa-de-cadastro {
+    padding: 20px;
+    height: 15%;
+    margin-top: 18%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px;
+    width: 20%;
+
+}
+
+body.cadastro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
