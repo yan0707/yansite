@@ -104,3 +104,12 @@ body.cadastro{
     align-items: center;
     width: 100%;
 }
+
+body.principal img{
+    width: 150spx;
+    height: 200px;
+}
+
+body.principal h1{
+    font-size: xx-large;
+}
