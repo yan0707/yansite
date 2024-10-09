@@ -2,8 +2,12 @@
     text-align: center;
    background-color: black;
 }
-
 body{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+body.index{
 
     background-attachment: fixed;
     background-color: black;
@@ -13,7 +17,7 @@ body{
 
 }
 
-body img {
+body.index img {
     width: 500spx;
     height: 400px;
 
@@ -105,11 +109,29 @@ body.cadastro{
     width: 100%;
 }
 
-body.principal img{
-    width: 150spx;
-    height: 200px;
+
+.inteiro{
+    display: flex;
 }
 
-body.principal h1{
-    font-size: xx-large;
+.lateral{
+    width: 10%;
+    background-color: gray;
+    height: 100vh;
+}
+
+.lateral img{
+    width: 236%;
+
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.video-item{
+    display: flex;
+    flex-direction: column;
 }
