@@ -115,9 +115,11 @@ body.cadastro{
 }
 
 .lateral{
-    width: 10%;
+    width: 7%;
     background-color: gray;
     height: 100vh;
+    position: fixed;
+    z-index: 999;
 }
 
 .lateral img{
@@ -129,9 +131,30 @@ body.cadastro{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    margin-top: 300px;
 }
 
 .video-item{
     display: flex;
     flex-direction: column;
+    width: 300px;
+}
+
+img#config{
+    width: 100%;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    height: 77%;
+    justify-content: space-between;
+    
+}
+
+.barra-de-pesquisa{
+    height: 70px;
+    display: flex;
+    justify-content: center;align-items: center;
 }
