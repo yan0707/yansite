@@ -112,6 +112,7 @@ body.cadastro{
 
 .inteiro{
     display: flex;
+    width: 100%;
 }
 
 .lateral{
@@ -119,9 +120,13 @@ body.cadastro{
     background-color: gray;
     height: 100vh;
     position: fixed;
-    z-index: 999;
+    
 }
 
+.PRINCIPAL{
+    width: 93%;
+    margin-left: 15%;
+}
 .lateral img{
     width: 236%;
 
@@ -131,7 +136,7 @@ body.cadastro{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .video-item{
@@ -149,12 +154,19 @@ img#config{
     display: flex;
     flex-direction: column;
     height: 77%;
-    justify-content: space-between;
+    justify-content: flex-end;
     
 }
 
 .barra-de-pesquisa{
-    height: 70px;
+    height: 50px;
     display: flex;
-    justify-content: center;align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.barra-de-pesquisa input{
+    border-radius: 10px;
+    width: 60%;
 }
