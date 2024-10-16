@@ -120,7 +120,18 @@ body.cadastro{
     background-color: gray;
     height: 100vh;
     position: fixed;
-    
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: center;
+}
+
+.lateral li{
+    list-style-type: none;
+    margin-left: 0;
+}
+.lateral ul{
+    padding-left: 3px;
+    text-align: center;
 }
 
 .PRINCIPAL{
@@ -159,7 +170,7 @@ img#config{
 }
 
 .barra-de-pesquisa{
-    height: 50px;
+    height: 35px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +178,26 @@ img#config{
 }
 
 .barra-de-pesquisa input{
-    border-radius: 10px;
-    width: 60%;
+    border-radius: 30px;
+    width: 70%;
+    height: 20px;
+}
+
+.barra-de-pesquisa img{
+    margin: -30px;
+    width: 20px;
+}
+
+a {
+    display: inline-block; /* Para garantir que o link envolva a imagem */
+}
+
+img {
+    max-width: 100%; /* Para garantir que a imagem se ajuste ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.2s; /* Para um efeito suave ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem levemente ao passar o mouse */
 }
