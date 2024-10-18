@@ -192,7 +192,7 @@ a {
     display: inline-block; /* Para garantir que o link envolva a imagem */
 }
 
-img {
+.videos img {
     max-width: 100%; /* Para garantir que a imagem se ajuste ao contêiner */
     height: auto; /* Mantém a proporção da imagem */
     transition: transform 0.2s; /* Para um efeito suave ao passar o mouse */
@@ -200,4 +200,16 @@ img {
 
 img:hover {
     transform: scale(1.05); /* Aumenta a imagem levemente ao passar o mouse */
+}
+
+p#textinho{
+    margin-left: 110%;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+p#textinho2{
+    margin-left: 90%;
+    font-size: 30px;
+    margin-top: 0%;
 }
