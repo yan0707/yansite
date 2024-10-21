@@ -1,0 +1,215 @@
+.pag-inicial{
+    text-align: center;
+   background-color: black;
+}
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+body.index{
+
+    background-attachment: fixed;
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body.index img {
+    width: 500spx;
+    height: 400px;
+
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 1000;
+}
+
+
+.botao a{
+    color: azure;
+    text-decoration: none;
+    background-color: gray;
+    font-size: larger;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.botao{
+   
+    text-align: center;
+    
+}
+
+.caixa-de-login{
+
+    padding: 20px;
+    height: 15%;
+    margin-top: 18%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px;
+    width: 20%;
+
+    
+}
+
+h2{
+    color: azure;
+}
+
+p{
+    color: azure;
+}
+
+body.login{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+  
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+}
+
+h3{
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.caixa-de-cadastro {
+    padding: 20px;
+    height: 15%;
+    margin-top: 18%;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px;
+    width: 20%;
+
+}
+
+body.cadastro{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.inteiro{
+    display: flex;
+    width: 100%;
+}
+
+.lateral{
+    width: 7%;
+    background-color: gray;
+    height: 100vh;
+    position: fixed;
+    justify-content: flex-end;
+    font-size: 20px;
+    align-items: center;
+}
+
+.lateral li{
+    list-style-type: none;
+    margin-left: 0;
+}
+.lateral ul{
+    padding-left: 3px;
+    text-align: center;
+}
+
+.PRINCIPAL{
+    width: 93%;
+    margin-left: 15%;
+}
+.lateral img{
+    width: 236%;
+
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 200px;
+}
+
+.video-item{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+img#config{
+    width: 100%;
+    
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    height: 77%;
+    justify-content: flex-end;
+    
+}
+
+.barra-de-pesquisa{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.barra-de-pesquisa input{
+    border-radius: 30px;
+    width: 70%;
+    height: 20px;
+}
+
+.barra-de-pesquisa img{
+    margin: -30px;
+    width: 20px;
+}
+
+a {
+    display: inline-block; /* Para garantir que o link envolva a imagem */
+}
+
+.videos img {
+    max-width: 100%; /* Para garantir que a imagem se ajuste ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    transition: transform 0.2s; /* Para um efeito suave ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.05); /* Aumenta a imagem levemente ao passar o mouse */
+}
+
+p#textinho{
+    margin-left: 110%;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+p#textinho2{
+    margin-left: 90%;
+    font-size: 30px;
+    margin-top: 0%;
+}
