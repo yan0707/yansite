@@ -21,3 +21,23 @@ Neste repostório está implementado o sistema de vídeos do CR7, que serve para
 4. Escolha o repositório do projeto para clonar
 
 5. Deseja abrir o repositório clonado? Abrir
+
+### Instalar a extensão do Python
+1. Clique em "Extensões" no menu a esquerda ou CRTL+SHIFT+X
+2. Procure por Python
+3. Clique em instalar
+
+### Instalar a biblioteca Flask
+1. Abrir m novo terminal : Barra de ferramentas > Três pontinhos> Terminal > Novo Terminal
+2.Digite o comando "pip install flask --user" e pressione o ENTER
+
+### Configurando GIT
+1. No terminal digite os comandos:
+
+"git config user.name seu_usuario"
+
+"git config user email seu_nome@email.com"
+
+### Como executar um servidor
+1. Clique com o botão direito no arquivo "app.py" e 
+selecione "Executar o arquivo Python no terminal"
