@@ -36,7 +36,7 @@ Neste repostório está implementado o sistema de vídeos do CR7, que serve para
 
 "git config user.name seu_usuario"
 
-"git config user email seu_nome@email.com"
+"git config user.email seu_nome@email.com"
 
 ### Como executar um servidor
 1. Clique com o botão direito no arquivo "app.py" e 

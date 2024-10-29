@@ -9,14 +9,17 @@
 </head>
 <body class="login">
     <div class="caixa-de-login">
-        <h2>Login</h2>
-        <p>Usúario</p>
-        <!--adicona entrada de texto-->
-        <input type="text" name="usuario" placeholder="...">
-        <p>Senha</p>
-        <input type="password" name="senha" placeholder="...">
-        <br>
-        <a href="/principal">Entrar</a>
+        <form action="/verificar_login" method="POST">
+            <h2>Login</h2>
+            <p>Usúario</p>
+            <!--adicona entrada de texto-->
+            <input type="text" id="usuario" name="usuario" placeholder="...">
+            
+            <p>Senha</p>
+            <input type="password" id="senha" name="senha" placeholder="...">
+            <br>
+            <button href="/principal">Entrar</button>
+        </form>
         
     </div>
 </body>
