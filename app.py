@@ -1,5 +1,5 @@
 # importando a biblioteca do Flaskpara fazer um site dinâmico
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect, url_for
 
 app= Flask(__name__)
 
@@ -39,7 +39,7 @@ def verificar_login():
 
     #verifica se o usuario digitado está na lista e se a senha está correta
     if username in usuarios and usuarios[username] == password:
-            return f"Bem-vindo, {username}!"
+            return redirect(url_for("principal"))
     else:
             return "Usuario ou senha inválidos."
     
