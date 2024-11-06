@@ -18,6 +18,16 @@
             <p>Senha</p>
             <input type="password" id="senha" name="senha" placeholder="...">
             <br>
+            {%with messages = get_flashed_messages() %}
+            {% if messages %}
+            <div class="resposta">
+                {% for message in messages %}
+                <p>{{ message }}</p>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% endwith %}
+            {% block body %}{% endblock %}
             <button href="/principal">Entrar</button>
         </form>
         

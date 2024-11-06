@@ -30,13 +30,15 @@ h1{
 }
 
 
-.botao a{
+.botao a, button{
     color: azure;
     text-decoration: none;
     background-color: gray;
     font-size: larger;
     padding: 10px;
     border-radius: 15px;
+    border: none;
+    font-size: 18px;
     
 }
 
@@ -212,4 +214,9 @@ p#textinho2{
     margin-left: 90%;
     font-size: 30px;
     margin-top: 0%;
+}
+.resposta p{
+    color: white;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
