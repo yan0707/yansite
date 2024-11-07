@@ -200,7 +200,7 @@ a {
     transition: transform 0.2s; /* Para um efeito suave ao passar o mouse */
 }
 
-img:hover {
+.video-item img:hover {
     transform: scale(1.05); /* Aumenta a imagem levemente ao passar o mouse */
 }
 
@@ -219,4 +219,19 @@ p#textinho2{
     color: white;
     font-size: 17px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagem-fundo img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.logocanal img{
+    height: 170px;
+    border-radius: 55%;
+}
+
+.canal {
+    padding-left: 10%;
+    display: flex;
 }
